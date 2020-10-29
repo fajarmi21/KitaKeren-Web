@@ -300,7 +300,7 @@
 </div>
 <div class="modal fade" id="modal-edit">
     <!-- <div class="modal fade" id="modal-edit"> -->
-    <div class="modal-dialog" style="max-width: 80% !important;">
+    <div class="modal-dialog" style="max-width: 60% !important;">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title">Edit Modal</h4>
@@ -312,52 +312,11 @@
                 <div class="modal-body">
                     <input type="hidden" name="id_detailDashboard" class="form-control">
                     <div class="row">
-                        <div class="col-md-6">
+
+                        <div class="col-md-12">
                             <div class="row">
-                                <label class="col-md-12 control-label">Name</label>
-                                <div class="col-sm-12">
-                                    <div class="form-group">
-                                        <input type="text" name="ind" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <label class="col-md-12 control-label">Name</label>
-                                <div class="col-sm-12">
-                                    <div class="form-group">
-                                        <input type="text" name="ind" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <label class="col-md-12 control-label">Name</label>
-                                <div class="col-sm-12">
-                                    <div class="form-group">
-                                        <input type="text" name="ind" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <label class="col-md-12 control-label">Name</label>
-                                <div class="col-sm-12">
-                                    <div class="form-group">
-                                        <input type="text" name="ind" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <label class="col-md-12 control-label">Name</label>
-                                <div class="col-sm-12">
-                                    <div class="form-group">
-                                        <input type="text" name="ind" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <label class="col-md-4 control-label">Name</label>
-                                <div class="col-sm-12">
+                                <label class="col-md-12 control-label">Judul</label>
+                                <div class="col-sm-6">
                                     <div class="form-group">
                                         <div class="input-group">
                                             <input type="text" name="ind" class="form-control">
@@ -367,7 +326,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12">
+                                <div class="col-sm-6">
                                     <div class="form-group">
                                         <div class="input-group">
                                             <input type="text" name="en" class="form-control">
@@ -379,21 +338,22 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <label class="col-md-4 control-label">Name</label>
-                                <div class="col-sm-12">
+                                <label class="col-md-12 control-label">Deskripsi</label>
+                                <div class="col-sm-6">
                                     <div class="form-group">
                                         <div class="input-group">
-                                            <input type="text" name="ind" class="form-control">
+                                            <textarea  name="ind" class="form-control"></textarea>
                                             <div class="input-group-append">
                                                 <span class="input-group-text">IND</span>
                                             </div>
+                                             
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12">
+                                <div class="col-sm-6">
                                     <div class="form-group">
                                         <div class="input-group">
-                                            <input type="text" name="en" class="form-control">
+                                            <textarea name="en" class="form-control"></textarea>
                                             <div class="input-group-append">
                                                 <span class="input-group-text">EN</span>
                                             </div>
@@ -402,6 +362,50 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-md-12">
+                            <div class="row">
+                                <label class="col-md-2 control-label">Alamat</label>
+                                <div class="col-sm-10">
+                                    <div class="form-group">
+                                        <input type="text" name="ind" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-2 control-label">Jam Buka</label>
+                                <div class="col-sm-10">
+                                    <div class="form-group">
+                                        <input type="text" name="ind" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-2 control-label">No. Telp</label>
+                                <div class="col-sm-10">
+                                    <div class="form-group">
+                                        <input type="number" name="ind" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-2 control-label">Harga</label>
+                                <div class="col-sm-10">
+                                    <div class="form-group">
+                                        <input type="text" name="ind" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-2 control-label">Pemandu</label>
+                                <div class="col-sm-10">
+                                    <div class="form-group">
+                                        <input type="text" name="ind" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
                 <div class="modal-footer justify-content-between">
