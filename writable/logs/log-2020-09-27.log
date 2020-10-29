@@ -1,0 +1,31 @@
+CRITICAL - 2020-09-27 00:34:33 --> Use of undefined constant BASEPATH - assumed 'BASEPATH' (this will throw an Error in a future version of PHP)
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Master.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'B:\\installer\\la...', 18, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master->index()
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-27 00:40:40 --> Use of undefined constant BASEPATH - assumed 'BASEPATH' (this will throw an Error in a future version of PHP)
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Master.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'B:\\installer\\la...', 18, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master->index()
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-27 00:49:18 --> Use of undefined constant BASEPATH - assumed 'BASEPATH' (this will throw an Error in a future version of PHP)
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Master.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'B:\\installer\\la...', 18, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master->index()
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-27 05:15:52 --> Undefined variable: totalTime
+#0 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'B:\\installer\\la...', 56, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Debug\Toolbar.php(498): include('B:\\installer\\la...')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 B:\installer\laragon\www\kitakeren-web\app\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#7 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,60 @@
+CRITICAL - 2020-10-14 22:46:24 --> Undefined variable: dashboard
+#0 B:\installer\laragon\www\kitakeren-web\app\Views\content\data\v_detail_deskripsi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'B:\\installer\\la...', 68, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\View\View.php(246): include('B:\\installer\\la...')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/data/v_...', Array, true)
+#3 B:\installer\laragon\www\kitakeren-web\app\Controllers\Master.php(88): view('content/data/v_...')
+#4 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master->show_view('3', 'Ds0001')
+#5 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#6 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-14 22:48:03 --> Undefined variable: dashboard
+#0 B:\installer\laragon\www\kitakeren-web\app\Views\content\data\v_detail_deskripsi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'B:\\installer\\la...', 68, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\View\View.php(246): include('B:\\installer\\la...')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/data/v_...', Array, true)
+#3 B:\installer\laragon\www\kitakeren-web\app\Controllers\Master.php(88): view('content/data/v_...')
+#4 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master->show_view('3', 'Ds0001')
+#5 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#6 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-14 22:48:50 --> Undefined variable: dashboard
+#0 B:\installer\laragon\www\kitakeren-web\app\Views\content\data\v_detail_deskripsi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'B:\\installer\\la...', 68, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\View\View.php(246): include('B:\\installer\\la...')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/data/v_...', Array, true)
+#3 B:\installer\laragon\www\kitakeren-web\app\Controllers\Master.php(88): view('content/data/v_...')
+#4 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master->show_view('3', 'Ds0001')
+#5 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#6 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-14 22:49:09 --> Undefined variable: id_dashboard
+#0 B:\installer\laragon\www\kitakeren-web\app\Views\content\data\v_detail_deskripsi.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'B:\\installer\\la...', 104, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\View\View.php(246): include('B:\\installer\\la...')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/data/v_...', Array, true)
+#3 B:\installer\laragon\www\kitakeren-web\app\Controllers\Master.php(88): view('content/data/v_...')
+#4 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master->show_view('3', 'Ds0001')
+#5 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#6 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-14 23:02:26 --> Undefined variable: dashboard
+#0 B:\installer\laragon\www\kitakeren-web\app\Views\content\data\v_detail_deskripsi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'B:\\installer\\la...', 68, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\View\View.php(246): include('B:\\installer\\la...')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/data/v_...', Array, true)
+#3 B:\installer\laragon\www\kitakeren-web\app\Controllers\Master.php(102): view('content/data/v_...', Array)
+#4 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master->show_view('3', 'Ds0001', 'D0001')
+#5 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#6 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-14 23:02:38 --> Undefined variable: dashboard
+#0 B:\installer\laragon\www\kitakeren-web\app\Views\content\data\v_detail_deskripsi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'B:\\installer\\la...', 68, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\View\View.php(246): include('B:\\installer\\la...')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/data/v_...', Array, true)
+#3 B:\installer\laragon\www\kitakeren-web\app\Controllers\Master.php(102): view('content/data/v_...', Array)
+#4 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master->show_view('3', 'Ds0001', 'D0001')
+#5 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#6 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

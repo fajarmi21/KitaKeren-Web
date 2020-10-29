@@ -1,0 +1,9 @@
+CRITICAL - 2020-10-05 00:37:02 --> You must use the "set" method to update an entry.
+#0 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2430): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#2 B:\installer\laragon\www\kitakeren-web\app\Controllers\Master.php(555): CodeIgniter\Model->update(Array, Array)
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master->write_deskripsi('update')
+#4 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

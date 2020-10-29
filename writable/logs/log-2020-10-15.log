@@ -1,0 +1,12 @@
+CRITICAL - 2020-10-15 11:20:47 --> Unknown column 'id_deskripsi' in 'order clause'
+#0 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 B:\installer\laragon\www\kitakeren-web\app\Controllers\Master.php(590): CodeIgniter\Model->findAll(1)
+#6 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master->write_detail_deskripsi('1', 'insert')
+#7 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

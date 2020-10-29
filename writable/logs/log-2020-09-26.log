@@ -1,0 +1,7 @@
+CRITICAL - 2020-09-26 21:54:55 --> Undefined index: icon_detail_dashboard
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Master.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'B:\\installer\\la...', 365, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Master->write_detail_dashboard('delete')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

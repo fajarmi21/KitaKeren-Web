@@ -1,0 +1,61 @@
+CRITICAL - 2020-09-20 03:31:16 --> Undefined variable: val
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'B:\\installer\\la...', 75, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->read_data('show', 'ajax-list-table')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-20 03:35:32 --> Undefined index: data_coba
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'B:\\installer\\la...', 81, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->read_data('show', 'ajax-list-table')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-20 03:36:33 --> strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Non-s...', 'B:\\installer\\la...', 77, Array)
+#1 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(77): strpos('Tour', true)
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->read_data('show', 'ajax-list-table')
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-20 07:26:49 --> Undefined index: data_coba
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'B:\\installer\\la...', 81, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->read_data('show', 'ajax-list-table')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-20 07:27:09 --> Undefined variable: data_buku
+#0 B:\installer\laragon\www\kitakeren-web\app\Views\content\data\ajax-list-table.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'B:\\installer\\la...', 2, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\View\View.php(246): include('B:\\installer\\la...')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/data/aj...', Array, true)
+#3 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(105): view('content/data/aj...', Array)
+#4 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->read_data('show', 'ajax-list-table')
+#5 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-20 07:38:01 --> Cannot use object of type stdClass as array
+#0 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->read_data('single')
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-20 08:28:27 --> Undefined variable: hasil
+#0 B:\installer\laragon\www\kitakeren-web\app\Views\content\v_data.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'B:\\installer\\la...', 329, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\View\View.php(246): include('B:\\installer\\la...')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/v_data', Array, true)
+#3 B:\installer\laragon\www\kitakeren-web\app\Views\layout\v_content.php(3): view('content/v_data')
+#4 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\View\View.php(246): include('B:\\installer\\la...')
+#5 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 B:\installer\laragon\www\kitakeren-web\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\View\View.php(246): include('B:\\installer\\la...')
+#8 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(40): view('layout/v_wrappe...', Array)
+#10 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->data()
+#11 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#12 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}

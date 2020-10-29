@@ -1,0 +1,182 @@
+CRITICAL - 2020-09-23 10:46:22 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'B:\\installer\\la...', 455, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Debug\Toolbar.php(455): file_get_contents('B:\\installer\\la...')
+#2 B:\installer\laragon\www\kitakeren-web\app\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#3 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#4 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Events\Events.php(188): call_user_func(Object(Closure))
+#5 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#6 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-23 11:01:54 --> Call to a member function isValid() on null
+#0 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-23 11:26:13 --> Call to a member function isValid() on null
+#0 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-23 11:29:49 --> Call to a member function isValid() on null
+#0 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-23 11:39:03 --> Call to a member function isValid() on null
+#0 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-23 11:46:08 --> Call to undefined function form_open_multipart()
+#0 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/v_data', Array, true)
+#2 B:\installer\laragon\www\kitakeren-web\app\Views\layout\v_content.php(3): view('content/v_data')
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\View\View.php(246): include('B:\\installer\\la...')
+#4 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#5 B:\installer\laragon\www\kitakeren-web\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#6 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\View\View.php(246): include('B:\\installer\\la...')
+#7 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#8 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(40): view('layout/v_wrappe...', Array)
+#9 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->data()
+#10 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-09-23 11:46:54 --> Call to undefined function form_open_multipart()
+#0 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/v_data', Array, true)
+#2 B:\installer\laragon\www\kitakeren-web\app\Views\layout\v_content.php(3): view('content/v_data')
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\View\View.php(246): include('B:\\installer\\la...')
+#4 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#5 B:\installer\laragon\www\kitakeren-web\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#6 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\View\View.php(246): include('B:\\installer\\la...')
+#7 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#8 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(40): view('layout/v_wrappe...', Array)
+#9 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->data()
+#10 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-09-23 11:57:23 --> Undefined index: foto
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'B:\\installer\\la...', 162, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-23 11:57:58 --> Undefined index: foto
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'B:\\installer\\la...', 162, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-23 11:58:28 --> Undefined index: img
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'B:\\installer\\la...', 162, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-23 12:00:14 --> Undefined variable: _FILE
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'B:\\installer\\la...', 162, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-23 12:02:04 --> Undefined index: img
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'B:\\installer\\la...', 162, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-23 12:05:01 --> Undefined index: img
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'B:\\installer\\la...', 162, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-23 12:05:33 --> Undefined index: img
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'B:\\installer\\la...', 158, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-23 12:18:43 --> Undefined index: img
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'B:\\installer\\la...', 163, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-23 12:20:54 --> Undefined index: img
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'B:\\installer\\la...', 163, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-23 12:25:16 --> Call to a member function isValid() on null
+#0 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('insert')
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-23 12:25:47 --> Call to a member function isValid() on null
+#0 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('insert')
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-23 12:36:42 --> A non-numeric value encountered
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'B:\\installer\\la...', 172, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-23 12:40:21 --> A non-numeric value encountered
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'B:\\installer\\la...', 174, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-23 12:41:25 --> A non-numeric value encountered
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'B:\\installer\\la...', 173, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-23 12:41:49 --> A non-numeric value encountered
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'B:\\installer\\la...', 173, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-23 12:48:20 --> Use of undefined constant BASEPATH - assumed 'BASEPATH' (this will throw an Error in a future version of PHP)
+#0 B:\installer\laragon\www\kitakeren-web\app\Controllers\Admin.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'B:\\installer\\la...', 163, Array)
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-23 12:53:34 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-23 12:56:26 --> Function name must be a string
+#0 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->write_data('update')
+#1 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 B:\installer\laragon\www\kitakeren-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 B:\installer\laragon\www\kitakeren-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
